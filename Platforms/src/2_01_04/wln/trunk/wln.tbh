@@ -65,7 +65,7 @@
 '0- disable WPA1/WPA2 support (saves code and memory space).
 '1- enable WPA1/WPA2 support.
 #ifndef WLN_WPA
-	#define WLN_WPA 0
+	#define WLN_WPA 1
 #endif
 
 #ifndef WLN_RESCAN_TMR_CTR_CONNECT
